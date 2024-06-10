@@ -7,7 +7,7 @@ import java.util.Arrays;
 public class Testcorrectinput {
     @Test
     public void test1() throws FileNotFoundException {
-        File file = new File("Tz\\src\\test\\Tests\\Testofspeed1.txt");
+        File file = new File("src\\test\\Tests\\Testofspeed1.txt");
         Scanner scanner = new Scanner(file);
         String line = scanner.nextLine();
         String[] numbersString = line.split(" ");
