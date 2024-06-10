@@ -30,7 +30,7 @@ jobs:
         CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
       run: |
             MESSAGE="Ошибка:"
-            FAILED_TESTS=$(grep '<<< FAILURE!' target/surefire-reports/org.example.NumbersProcessorTest.txt)
+            FAILED_TESTS=$(grep '<<< FAILURE!')
             curl -s -X POST https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage -d "chat_id=${CHAT_ID}&text=${MESSAGE} ${FAILED_TESTS}"
     - name: Telegram success message
       if: success()
