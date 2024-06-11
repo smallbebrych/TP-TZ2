@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class TestofSpeed {
     @Test
     public void testspeedMin1() throws FileNotFoundException {
-        File file = new File("C:\\Users\\Глеб\\IdeaProjects\\Tz\\src\\test\\Tests\\Testofspeed1.txt");
+        File file = new File("src\\test\\Tests\\Testofspeed1.txt");
         Scanner scanner = new Scanner(file);
         String line = scanner.nextLine();
         String[] numbersString = line.split(" ");
@@ -33,7 +33,7 @@ public class TestofSpeed {
     }
     @Test
     public void testspeedMin2() throws FileNotFoundException {
-        File file = new File("C:\\Users\\Глеб\\IdeaProjects\\Tz\\src\\test\\Tests\\Testofspeed2.txt");
+        File file = new File("src\\test\\Tests\\Testofspeed2.txt");
         Scanner scanner = new Scanner(file);
         String line = scanner.nextLine();
         String[] numbersString = line.split(" ");
@@ -61,7 +61,7 @@ public class TestofSpeed {
     }
     @Test
     public void testspeedMin3() throws FileNotFoundException {
-        File file = new File("C:\\Users\\Глеб\\IdeaProjects\\Tz\\src\\test\\Tests\\Testofspeed3.txt");
+        File file = new File("src\\test\\Tests\\Testofspeed3.txt");
         Scanner scanner = new Scanner(file);
         String line = scanner.nextLine();
         String[] numbersString = line.split(" ");
@@ -89,7 +89,7 @@ public class TestofSpeed {
     }
     @Test
     public void testspeedMin4() throws FileNotFoundException {
-        File file = new File("C:\\Users\\Глеб\\IdeaProjects\\Tz\\src\\test\\Tests\\Testofspeed4.txt");
+        File file = new File("src\\test\\Tests\\Testofspeed4.txt");
         Scanner scanner = new Scanner(file);
         String line = scanner.nextLine();
         String[] numbersString = line.split(" ");
