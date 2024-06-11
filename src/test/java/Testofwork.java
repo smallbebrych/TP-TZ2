@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class Testofwork {
     @Test
     public void testMin() throws FileNotFoundException {
-        File file=new File("C:\\Users\\Глеб\\IdeaProjects\\Tz\\src\\test\\Tests\\test1.txt");
+        File file=new File("src\\test\\Tests\\test1.txt");
         Scanner scanner=new Scanner(file);
         String line = scanner.nextLine();
         String[] numbersString = line.split(" ");
@@ -19,7 +19,7 @@ public class Testofwork {
     }
     @Test
     public void testMax() throws FileNotFoundException {
-        File file=new File("C:\\Users\\Глеб\\IdeaProjects\\Tz\\src\\test\\Tests\\test2.txt");
+        File file=new File("src\\test\\Tests\\test2.txt");
         Scanner scanner=new Scanner(file);
         String line = scanner.nextLine();
         String[] numbersString = line.split(" ");
@@ -32,7 +32,7 @@ public class Testofwork {
     }
     @Test
     public void testSum() throws FileNotFoundException {
-        File file=new File("C:\\Users\\Глеб\\IdeaProjects\\Tz\\src\\test\\Tests\\test4.txt");
+        File file=new File("src\\test\\Tests\\test4.txt");
         Scanner scanner=new Scanner(file);
         String line = scanner.nextLine();
         String[] numbersString = line.split(" ");
@@ -45,7 +45,7 @@ public class Testofwork {
     }
     @Test
     public void testMult() throws FileNotFoundException {
-        File file=new File("C:\\Users\\Глеб\\IdeaProjects\\Tz\\src\\test\\Tests\\test3.txt");
+        File file=new File("src\\test\\Tests\\test3.txt");
         Scanner scanner=new Scanner(file);
         String line = scanner.nextLine();
         String[] numbersString = line.split(" ");
