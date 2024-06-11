@@ -1,7 +1,7 @@
 # TP-TZ2
 [![CI System](https://github.com/smallbebrych/TP-TZ2/actions/workflows/main.yml/badge.svg)](https://github.com/smallbebrych/TP-TZ2/actions/workflows/main.yml)
 # Программа Main
-```
+``` java
 import java.util.ArrayList;
 import java.util.Scanner;
 import java.io.File;
@@ -60,7 +60,7 @@ class Main{
 ### Описание программы
 Данная программа считывает числа из файла и находит в нем минимум, максимум, сумму и произведение чисел.
 # Реализация тестов на правильность возвращаемых ответов
-```
+``` java
 import static org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.api.Test;
 import java.io.File;
@@ -125,7 +125,7 @@ public class Testofwork {
 ### Описание программы
 Для данной программы было создано 4 файла: test1, test2, test3, test4. Они открываются и проверяется правильность ответа для этих файлов.
 # Реализация тестов на скорость выполнения программы
-```
+``` java
 import org.junit.jupiter.api.Test;
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -248,7 +248,7 @@ public class TestofSpeed {
 ### Описание программы
 Данная программа считывает данные из приготовленных 4 файлов на 1000, 10000, 100000 и 1000000 элементов, а затем выдает время выполнения каждого метода на все файлы.
 # Реализация своего теста
-```
+``` java
 import org.junit.jupiter.api.Test;
 import java.io.File;
 import java.io.FileNotFoundException;
